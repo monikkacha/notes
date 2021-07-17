@@ -24,16 +24,16 @@ function setGreetingAndBg() {
     let today = new Date();
     let hours = today.getHours();
     if (hours < 12) {
-        document.body.style.backgroundImage = "url('./images/morning.jpg')";
+        document.body.style.backgroundImage = "url('https://localhost/projects/notes/images/morning.jpg')";
         greetingText.textContent = "Good Morning";
     } else if (hours < 16) {
-        document.body.style.backgroundImage = "url('./images/afternoon.jpg')";
+        document.body.style.backgroundImage = "url('https://localhost/projects/notes/images/afternoon.jpg')";
         greetingText.textContent = "Good Afternoon";
     } else if (hours < 20) {
-        document.body.style.backgroundImage = "url('./images/evening.jpg')";
+        document.body.style.backgroundImage = "url('https://localhost/projects/notes/images/evening.jpg')";
         greetingText.textContent = "Good Evening";
-    } else if (hours < 16) {
-        document.body.style.backgroundImage = "url('./images/night.jpg')";
+    } else if (hours < 24) {
+        document.body.style.backgroundImage = "url('https://localhost/projects/notes/images/night.jpg')";
         greetingText.textContent = "Good Evening";
     }
 }

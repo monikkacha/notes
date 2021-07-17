@@ -1,6 +1,5 @@
 <?php 
-
-    // ACTIONS
+    header('Access-Control-Allow-Origin: *');    // ACTIONS
     $LIST = 'LIST'; // select all data from db
     $SELECT_NOTE = 'SELECT_NOTE'; // select particular note from db
     $DELETE_NOTE = 'DELETE_NOTE'; // delete note from db
